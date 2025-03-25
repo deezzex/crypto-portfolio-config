@@ -1,2 +1,5 @@
 service:
   name: test
+spring:
+  application:
+    name: override-name-service
