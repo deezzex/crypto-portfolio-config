@@ -10,3 +10,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 api:
   version: v1
+
+refreshable:
+  message: hello
