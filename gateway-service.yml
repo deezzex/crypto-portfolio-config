@@ -1,0 +1,12 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+route:
+  uri:
+    transaction-service: lb://TRANSACTION-SERVICE
+    wallet-service: lb://WALLET-SERVICE
+
+api:
+  version: v1
